@@ -1,4 +1,4 @@
- Projeto final do Módulo 4
+### Projeto final do Módulo 4
 
 ## Projeto de conclusão do módulo Frontend Dinâmico ##
 
@@ -8,17 +8,24 @@ Este projeto consiste na criação de uma aplicação de lista de tarefas (ToDo 
 
 # Funcionalidades
 
-Adicionar uma tarefa
-Editar uma tarefa salva
-Remover uma tarefa salva
-Listar todas as tarefas salvas
-Requisitos Adicionais
+- Adicionar uma tarefa;
+  
+- Editar uma tarefa salva;
+  
+- Remover uma tarefa salva;
+  
+- Listar todas as tarefas salvas;
+  
+- Requisitos Adicionais;
 
 # Além das funcionalidades básicas de CRUD, o projeto inclui os seguintes requisitos adicionais:
 
-Validação de dados nos campos de cadastro e edição, incluindo obrigatoriedade e outras validações necessárias.
-Exibição da data atual do sistema na tela inicial, com a hora sendo atualizada a cada minuto.
-Persistência de Dados
+ - Validação de dados nos campos de cadastro e edição, incluindo obrigatoriedade e outras validações necessárias.
+
+- Exibição da data atual do sistema na tela inicial, com a hora sendo atualizada a cada minuto.
+
+- Persistência de Dados.
+
 
 Para a persistência das tarefas, utiliza-se uma API, que pode ser configurada no CrudCrud.
 
