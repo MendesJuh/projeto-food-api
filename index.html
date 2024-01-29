@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="todo-container">
+    <header>
+      <h1>ToDo List</h1>
+      <p id="relogio" aria-labelledby="relogio-label"><i class="fas fa-clock"></i></p>
+    </header>
+    <form id="todo-form" aria-label="Formulário de adição de tarefas">
+      <p>Adicione sua tarefa</p>
+      <div class="form-control">
+        <input type="text" id="todo-input" placeholder="O que você vai fazer?" aria-label="Campo de entrada de tarefa" />
+        <button type="submit" aria-label="Adicionar tarefa">
+          <i class="fa-thin fa-plus"></i>
+        </button>
+      </div>
+    </form>
+    <form id="edit-form" class="hide" aria-label="Formulário de edição de tarefas">
+      <p>Edite sua tarefa</p>
+      <div class="form-control">
+        <input type="text" id="edit-input" aria-label="Campo de edição de tarefa" />
+        <button type="submit" id="confirm-edit-btn" aria-label="Confirmar edição">
+          <i class="fa-solid fa-check-double"></i>
+        </button>
+      </div>
+      <button id="cancel-edit-btn" aria-label="Cancelar edição">Cancelar</button>
+    </form>
+    <div id="todo-list" aria-live="polite" aria-label="Lista de tarefas"></div>
+    <div>
+      <button id="reset-button" class="hide" aria-label="Limpar tarefas">Limpar Tarefas</button>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
